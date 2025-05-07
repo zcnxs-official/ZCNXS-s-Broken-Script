@@ -246,7 +246,6 @@ local LevitationAnim_Button = Instance.new("TextButton")
 local AstronautAnim_Button = Instance.new("TextButton")
 local NinjaAnim_Button = Instance.new("TextButton")
 local WerewolfAnim_Button = Instance.new("TextButton")
-local h8r_Button = Instance.new("TextButton")
 local CartoonAnim_Button = Instance.new("TextButton")
 local PirateAnim_Button = Instance.new("TextButton")
 local SneakyAnim_Button = Instance.new("TextButton")
@@ -1821,28 +1820,6 @@ FlyWButton.Text = ""
 FlyWButton.TextColor3 = Color3.fromRGB(0, 0, 0)
 FlyWButton.TextSize = 25.000
 FlyWButton.TextWrapped = true
-
-
-CreateClicker(h8r_Button)
-
-h8r_Button.Name = "h8r_Button"
-h8r_Button.Parent = Scripts_Section
-h8r_Button.BackgroundColor3 = Color3.fromRGB(56, 56, 56)
-h8r_Button.BackgroundTransparency = 0.500
-h8r_Button.BorderColor3 = Color3.fromRGB(0, 0, 0)
-h8r_Button.BorderSizePixel = 0
-h8r_Button.Position = UDim2.new(0, 25, 0, 175)
-h8r_Button.Size = UDim2.new(0, 150, 0, 30)
-h8r_Button.Font = Enum.Font.Oswald
-h8r_Button.Text = "h8r Hub"
-h8r_Button.TextColor3 = Color3.fromRGB(0, 0, 0)
-h8r_Button.TextScaled = true
-h8r_Button.TextSize = 14.000
-h8r_Button.TextWrapped = true
-
-h8r_Button.MouseButton1Click:Connect(function()
-	loadstring(game:HttpGet("https://raw.github.com/disownh8r/h8r-script/main/source.lua"))()
-end)
 
 kittyHub_Button.Name = "kittyHub_Button"
 kittyHub_Button.Parent = Scripts_Section
